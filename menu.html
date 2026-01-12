@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!--HEAD-->
+  <head>
+    <title>Wallet - Menú Principal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--BOOTSTRAP 5 CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!--SCRIPT BOOTSTRAP 5-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--SCRIPT LOGICA GLOBAL-->
+    <script defer src="./assets/js/logica_global.js"></script>
+
+    <!--SCRIPT JAVASCRIPT-->
+    <script defer src="./assets/js/menu.js"></script>
+
+    <!--SCRIPT VALIDA LOGIN-->
+    <script defer src="./assets/js/validaLogin.js"></script>
+  </head>
+
+  <!--BODY-->
+  <body id="body">
+    <!--MENÚ PRINCIPAL-->
+    <div class="container mt-3">
+      <h2 class="display-5 fw-bold text-center">Menú Principal</h2>
+
+      <!--DINERO EN CUENTA-->
+      <div class="form-group my-4 text-center">
+        <label for="balance">Dinero en cuenta:</label>
+        <h3 class="display-6 fw-bold"><span id="monto-saldo"></span></h3>
+      </div>
+
+      <!--BOTONES DEL MENÚ PRINCIPAL-->
+      <div class="d-flex flex-wrap gap-2">
+        <a
+          id="btnWallet"
+          href="wallet.html"
+          class="btn btn-primary rounded-pill px-4"
+          >Deposito o Retiro</a
+        >
+        <a
+          id="btnSendMoney"
+          href="sendmoney.html"
+          class="btn btn-primary rounded-pill px-4"
+          >Envío de Dinero</a
+        >
+        <a
+          id="btnTransactions"
+          href="transactions.html"
+          class="btn btn-primary rounded-pill px-4"
+          >Últimos Movimientos</a
+        >
+      </div>
+    </div>
+
+    <div class="py-3 text-center">
+      <p id="mensaje-redireccion" class="fs-4 fw-bold text-primary mt-4"></p>
+    </div>
+  </body>
+</html>
