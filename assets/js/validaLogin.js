@@ -5,6 +5,6 @@
   //LOGIN NO AUTORIZADO, REDIRECCIÓN AL INICIO DE SESIÓN
   if (login !== "true") {
     alert("Acceso no autorizado. Redirigiendo al inicio de sesión.");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   }
 })();

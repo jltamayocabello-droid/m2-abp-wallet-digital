@@ -18,7 +18,7 @@ https://jltamayocabello-droid.github.io/m2-abp-wallet-digital/
 
 💡 Desafío: Crea una billetera digital básica que incluya las siguientes pantallas:
 
-Pantalla de inicio de sesión (login.html):
+Pantalla de inicio de sesión (index.html):
 
 1.	Agrega un evento al botón "Iniciar sesión".
 ⦁	Implementa la funcionalidad de validar las credenciales ingresadas utilizando JavaScript. Check!
